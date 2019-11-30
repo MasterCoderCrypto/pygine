@@ -1,5 +1,13 @@
 Leute schreibt hier eure Ideen rein, mit dem jeweiligen Namen mit Datum.
 
+WICHTIG:
+
+Erstellt für eure Sitzungen einen Branch und mergt ihn dann mit dem Master Branch, um Überschreibungen zu vermeiden.
+
+WICHTIG:
+
+Dokumentiert eure Programme ausführlich.
+
 z.B
 
 PAUL 30.11.19:
@@ -11,5 +19,6 @@ eine für Settings haben.
 
 Optional könnten wir auch noch beim öffnen des Programms einen Account-Screen einfügen, mit dem man dann mit seinem
 Account die Engine nutzen kann. Das erleichter z.B Multiplayer Games falls wir diese Funktionalität dann aufnehmen.
+
 
 
