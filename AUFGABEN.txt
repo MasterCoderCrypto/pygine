@@ -3,7 +3,7 @@ Die Aufgabenverteilung
 Im Moment sollten wir erstmal grob besprechen wer was macht. Ich bin dafür das wir unsere Engine-Sprache CBGL(Command-Based-
 Game-Language) nennen. 
 
-Schreibt einfach was ihr machen wollt, ich schreib erst mal eine ungefähre Einteilung:
+Schreibt einfach was ihr machen wollt, ich mach erst mal eine ungefähre Einteilung:
 
 PAUL: GUI + Compiler für CBGL
 
