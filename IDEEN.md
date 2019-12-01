@@ -10,7 +10,7 @@ Dokumentiert eure Programme ausführlich.
 
 z.B
 
-PAUL 30.11.19:
+#PAUL 30.11.19:
 
 Das Menü soll dann der erste Screen sein, der nach dem Anmelden aufpoppt. 
 
@@ -21,5 +21,10 @@ Optional könnten wir auch noch beim öffnen des Programms einen Account-Screen 
 Account die Engine nutzen kann. Das erleichter z.B Multiplayer Games falls wir diese Funktionalität dann aufnehmen.
 
 
+
+#MARVIN 1.12.19:
+
+Wir müssen mal nen Discord machen damit man auch mal Sketches vom GUI schicken kann damit man sich des besser vorstellen kann usw...
+Schreibt mal alle euren DC Namen und ID in "discord.txt"
 
  
