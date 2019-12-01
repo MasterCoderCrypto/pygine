@@ -27,4 +27,4 @@ Account die Engine nutzen kann. Das erleichter z.B Multiplayer Games falls wir d
 Wir müssen mal nen Discord machen damit man auch mal Sketches vom GUI schicken kann damit man sich des besser vorstellen kann usw...
 Schreibt mal alle euren DC Namen und ID in "discord.txt"
 
- 
+ Joint dem Discord -> Link is am Ende von "discord.txt"
