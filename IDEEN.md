@@ -28,3 +28,7 @@ Wir müssen mal nen Discord machen damit man auch mal Sketches vom GUI schicken 
 Schreibt mal alle euren DC Namen und ID in "discord.txt"
 
  Joint dem Discord -> Link is am Ende von "discord.txt"
+
+#PAUL 5.12.19:
+
+Bin im Discord
