@@ -32,3 +32,9 @@ Schreibt mal alle euren DC Namen und ID in "discord.txt"
 #PAUL 5.12.19:
 
 Bin im Discord
+
+#PAUL 7.12.2019:
+
+Hab das Setup-File erstellt. Wenn ihr neue Module erstellt, fügt den Namen der Module als String zu der Liste unter 
+py_modules zu. Alle Ordner werden automatisch mitinstalliert. Wenn wir dann fertig sind erstell ich ein python-wheel oder egg
+damit man pygine über den pip-Befehl downloaden kann.
