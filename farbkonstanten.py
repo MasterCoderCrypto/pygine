@@ -1,12 +1,12 @@
 
-constants = {'BLACK': (0, 0,0),
-             'BLUE': (0, 0, 255),
-             'RED': (255, 0, 0),
-             'GREEN': (0, 255, 0),
-             'WHITE': (255, 255, 255),
-             'LIGHT_GREEN': (173, 255, 47),
-             'PINK': (255, 0, 255),
-             'GREY': (128, 128, 128),
-             'LIGHT_BLUE': (0, 191, 255),
-             'PURPLE':(139, 10, 80),
-             'YELLOW': (255, 185, 15),}
+constants = {'BLACK': '#000000',
+             'BLUE': '#0000FF',
+             'RED': '#FF0000',
+             'GREEN': '#01DF01',
+             'WHITE': '#FFFFFF',
+             'LIGHT_GREEN': '#3ADF00',
+             'PINK': '#FE2E9A',
+             'GREY': '#6E6E6E',
+             'LIGHT_BLUE': '#00FFFF',
+             'PURPLE': '#8A084B',
+             'YELLOW': '#FFFF00',}
