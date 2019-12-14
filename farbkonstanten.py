@@ -9,4 +9,4 @@ constants = {'BLACK': '#000000',
              'GREY': '#6E6E6E',
              'LIGHT_BLUE': '#00FFFF',
              'PURPLE': '#8A084B',
-             'YELLOW': '#FFFF00',}
+             'YELLOW': '#FFFF00'}
