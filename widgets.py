@@ -22,9 +22,12 @@ Bsp:
 class Menu(tkinter.Frame, WIN):
     """
     self.button  | Der Button der Klasse Menu
+    
+    self.resize  | Resize Methode
     """
     def __init__(self, master):
         super().__init__(master)
+        self.place(x=0, y=0, width=proportions[0], height=proportions[1])
         ...
         self.button = tkinter.Button(self)
     
@@ -32,7 +35,16 @@ class Menu(tkinter.Frame, WIN):
         ...
         
         
-proportions ist eine Liste, die ebenfalls importiert wird, sie gibt die aktuelle Fenstergröße
+proportions ist eine Liste, die ebenfalls importiert wird, sie gibt die aktuelle Fenstergröße, [1] ist dabei die Weite
+und [2] die Höhe der Anwendung
 '''
 
 from abc import ABC, abstractmethod
+import tkinter
+
+proportions = [800, 600]
+
+class WIN(ABC):
+    @abstractmethod 
+    def resize(self):
+        pass
