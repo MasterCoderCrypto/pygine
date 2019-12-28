@@ -26,7 +26,7 @@ class Menu(tkinter.Frame, WIN):
     self.resize  | Resize Methode
     """
     def __init__(self, master):
-        super().__init__(master)
+        tkinter.Frame.__init__(master)
         self.place(x=0, y=0, width=proportions[0], height=proportions[1])
         ...
         self.button = tkinter.Button(self)
