@@ -9,7 +9,8 @@ Hier nichts ohne Absprache Coden!
 '''
 
 from widgets import (proportions,)
-from compile import Compiler
+from compile_file import Compiler
+from save import Saver
 
 class Verwalter:
     def __init__(self):
