@@ -9,10 +9,12 @@ Hier nichts ohne Absprache Coden!
 '''
 
 from widgets import (proportions,)
+from compile import Compiler
 
 class Verwalter:
     def __init__(self):
         self.master = tkinter.Tk()
+        self.compiler = Compiler()
 
 MAIN = Verwalter()
         
