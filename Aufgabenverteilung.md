@@ -14,7 +14,7 @@ Jacob & Thassilo: Hintergrunddesign
                                Gegner-Charaktere eingezeichnet werden, da die Animation programmtechnisch erfolgt.
                                Es reicht ein einzelnes Bild, kein Gif.
                   
-                  Charakter: Der Charakter muss eine Lauf-sowie Sprunganimation besitzen, die gut oder flüssig aussehen soll.
+                  Charakter: Der Charakter muss eine Lauf-sowie Sprunganimation besitzen, die gut und flüssig aussehen soll.
                              Dabei sollen diese keine Gifs sein, sondern einzelne Bilder. Ich empfehle den Sprite im Format
                              (128x128).
                              
