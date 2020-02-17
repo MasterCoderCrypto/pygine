@@ -41,7 +41,7 @@ Marvin: Modulare Erstellung der Darstellungsebene
         
                    Du erstellst ein Modul-Skript namens intro_frames.py, das enthalten soll:
                    
-                   1. -eine Funktion im Modul namens init, die die Parameter width, height, moved(für Bildverschiebung) und div
+                   1. -eine Funktion im Modul namens init, die die Parameter width, height, und div
                     (für das Ordner-Trennzeichen des jeweiligen Betriebsystems(Linux: '/', Windows: '\'))
                     erwartet, und sie in den globalen Namensraum durch den Aufruf globals()['Name'] = Wert überträgt.
                     Die Übergebenen Parameter sind nun an jeder Stelle des Moduls aufrufbar.
@@ -50,14 +50,7 @@ Marvin: Modulare Erstellung der Darstellungsebene
                            später festgestellt wird.
                            
                            -width: Weite des gesamten Bildschirms
-                           -height: Höhe des gesamten Bildschirms
-                           -moved: Etwas Komplexer:
-                                   
-                                   Unter Linux und MacOs wir der Anfangspunkt x=0, y=0 eines Bildes nicht oben links festgelegt,
-                                   sondern in der Mitte des Bildes. Deshalb musst du beim Einfügen eines Bildes prüfen, ob
-                                   moved=True ist. Ist das so, wird es einfach um width//2 und height//2 auf x bzw.y-Position
-                                   verschoben.
-                                   
+                           -height: Höhe des gesamten Bildschirms      
                            -div: Trennzeichen zwischen Ordnern als String.(Brauchst du erstmal nicht nutzen, da der Pfad zum Bild
                                  als Schnittstelle in deine Klasse übergeben wird.(Von dem main.py Skript, das ich schreiben werde.))
                            
@@ -73,6 +66,7 @@ Marvin: Modulare Erstellung der Darstellungsebene
                    Die Klasse muss eine Methode namens redraw besitzen, die sich selbst am Ende durch self.after(10, self.redraw)
                    aufruft. Am Anfang dieser muss durch canvas.delete(*canvas.find_all()) erstmal der Bildschirm gelöscht werden,
                    und dann alles innerhalb der Funktion nachgezeichnet werden, das sorgt für eine flüssige Animation.
+                   Beachte: Setze bei create_image anchor='nw'
                    Gezeichnet werden muss erstmal das Hintergrundbild, sowie eine Transparenzschicht die von links
                    bis rechts eingeblendet wird, gesteuert durch die Variable self.fortschritt(Der Ladefortschritt in Prozent)
                    (1-100). Das alles geschieht in einem canvas. Der Charakter muss vorerst nicht animiert werden, das ist Stoff
