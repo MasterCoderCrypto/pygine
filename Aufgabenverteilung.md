@@ -41,7 +41,7 @@ Marvin: Modulare Erstellung der Darstellungsebene
         
                    Du erstellst ein Modul-Skript namens intro_frames.py, das enthalten soll:
                    
-                   -eine Funktion im Modul namens init, die die Parameter width, height, moved(für Bildverschiebung) und div
+                   1. -eine Funktion im Modul namens init, die die Parameter width, height, moved(für Bildverschiebung) und div
                     (für das Ordner-Trennzeichen des jeweiligen Betriebsystems(Linux: '/', Windows: '\'))
                     erwartet, und sie in den globalen Namensraum durch den Aufruf globals()['Name'] = Wert überträgt.
                     Die Übergebenen Parameter sind nun an jeder Stelle des Moduls aufrufbar.
@@ -62,7 +62,7 @@ Marvin: Modulare Erstellung der Darstellungsebene
                                  als Schnittstelle in deine Klasse übergeben wird.(Von dem main.py Skript, das ich schreiben werde.))
                            
                    
-                   -eine Klasse namens Intro, die von tkinter.Frame erbt.
+                   2.-eine Klasse namens Intro, die von tkinter.Frame erbt.
                     
                     Parameter für die __init__ Methode: 
                     
