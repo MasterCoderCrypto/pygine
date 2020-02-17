@@ -5,7 +5,7 @@ Ziel diese Woche: --Alle Komponenten für den Ladebildschirm beim Starten des Pr
 Jacob & Thassilo: Hintergrunddesign
                 
                   Sprecht euch zusammen ab, ich würde vorschlagen einer von euch erstellt den Hintergrund, während der andere
-                  einen Charakter erstellt.
+                  einen Charakter erstellt. Die Erstellung dieser könnt ihr mit der Website Piskel durchführen.
                   
                   Hintergrund: Der Hintergrund muss das Format(800x800) Pixel besitzen, da der Ladebildschirm
                                erstmal so startet und erst anschließend auf Bildschirmgröße vergrößert wird. Das Bild
