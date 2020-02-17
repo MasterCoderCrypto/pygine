@@ -15,7 +15,8 @@ Jacob & Thassilo: Hintergrunddesign
                                Es reicht ein einzelnes Bild, kein Gif.
                   
                   Charakter: Der Charakter muss eine Lauf-sowie Sprunganimation besitzen, die gut oder flüssig aussehen soll.
-                             Dabei sollen diese keine Gifs sein, sondern einzelne Bilder.
+                             Dabei sollen diese keine Gifs sein, sondern einzelne Bilder. Ich empfehle den Sprite im Format
+                             (128x128).
                              
                              Ratsam ist: 1xCharakter in stehender Pose, Blick nach rechts
                                          10xBilder zur Sprung-Animation
