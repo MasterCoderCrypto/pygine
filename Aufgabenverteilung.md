@@ -70,7 +70,9 @@ Marvin: Modulare Erstellung der Darstellungsebene
                         -path_to_charakter(Der Pfad zum Charakter)
                    
                    Die Klasse muss eine Methode namens redraw besitzen, die sich selbst am Ende durch self.after(10, self.redraw)
-                   aufruft. Gezeichnet werden muss erstmal das Hintergrundbild, sowie eine Transparenzschicht die von links
+                   aufruft. Am Anfang dieser muss durch canvas.delete(*canvas.find_all()) erstmal der Bildschirm gelöscht werden,
+                   und dann alles innerhalb der Funktion nachgezeichnet werden, das sorgt für eine flüssige Animation.
+                   Gezeichnet werden muss erstmal das Hintergrundbild, sowie eine Transparenzschicht die von links
                    bis rechts eingeblendet wird, gesteuert durch die Variable self.fortschritt(Der Ladefortschritt in Prozent)
                    (1-100). Das alles geschieht in einem canvas. Der Charakter muss vorerst nicht animiert werden, das ist Stoff
                    der nächsten Woche. Gespeichert wird das Modul einfach ganz oben in der Ordnerhirarchie, wie main.py
