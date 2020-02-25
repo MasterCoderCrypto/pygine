@@ -1,0 +1,79 @@
+Dieses File beinhaltet die Dokumentation zur Datei tools.py.
+
+Inhalt:
+
+-Loadbar
+
+
+Benutzer-Dokumentation zur Klasse Loadbar.
+
+Die Klasse Loadbar stellt einen Ladebalken bereit, der sich in einer
+tkinter Oberfläche integrieren lässt.
+
+Parameter die bei beim instanziieren übergeben werden müssen sind zum einen
+als erstes das Canvas, in das der Ladebalken gemalt werden soll.
+Als zweites und drittes die jeweilige x- und y-Position, dabei wird
+von oben links nach rechts und unten für x- und y gegangen.
+
+Danach kommt ein Haufen keyword-Arguments, die optional sind und in
+beliebiger Reihenfolge angegeben werden können.
+
+-color: Die Farbe des Ladebalkens
+-width: Die Breite des Ladebalkens
+-height: Die Höhe des Ladebalkens
+-outline: Die Farbe der Umrandung des Ladebalkens
+-text: Der Text der auf dem Ladebalken stehen soll.(
+       In dem Text werden alle angaben von %l durch den aktuellen
+       Ladefortschritt ersetzt.
+)
+-fontcolor: Die Farbe des Textes(nur nötig, falls text nicht gleich '')
+-font: Der Font des Textes(nur nötig, falls text nicht gleich '')
+-animation: Flag, ob eine Animation erfolgen soll
+-animation_color: Die Farbe der Animation(nur sinnvoll falls animation=True)
+
+Methoden:
+
+Der Ladebalken lässt sich durch die Methode draw() zeichnen. Der Ladebalken löscht
+sich automatisch und zeichnet sich erneut bei diesem Methodenaufruf.
+
+Durch den Aufruf der Methode delete() lässt sich der Ladebalken bis zum Aufruf
+der draw() Methode löschen, der Zustand des Ladebalkens bleibt erhalten,
+er wird lediglich nicht gezeichnet.
+
+stop_animation() stoppt die Animation.
+
+animate() startet die Animation, falls nicht gerade animiert wird.
+
+set(value) setzt den Ladefortschritt auf den Wert value.
+           Dabei kann value als float im Bereich 0-100(%) angegeben werden.
+
+Es lässt sich allerdings durch loaded als Attribut der Klasse direkt auf den
+Ladefortschritt zugreifen(auslesen und setzen, löschen nicht möglich)
+
+Mit config() lässt sich der Ladebalken komplett konfigurieren.
+Alle Parameter müssen in Form von keyword-Arguments übergeben werden, Reihenfolge beliebig.
+
+Parameter:
+
+-x: Die x-Position
+-y: Die y-Position
+-color: Die Farbe des Ladebalkens
+-width: Die Breite des Ladebalkens
+-height: Die Höhe des Ladebalkens
+-outline: Die Farbe der Umrandung des Ladebalkens
+-text: Der Text der auf dem Ladebalken stehen soll.(
+       In dem Text werden alle angaben von %l durch den aktuellen
+       Ladefortschritt ersetzt.
+)
+-fontcolor: Die Farbe des Textes(nur nötig, falls text nicht gleich '')
+-font: Der Font des Textes(nur nötig, falls text nicht gleich '')
+-animation: Flag, ob eine Animation erfolgen soll
+-animation_color: Die Farbe der Animation(nur sinnvoll falls animation=True)
+-lower: Muss als int übergeben werden. Falls kein animation_color gesetzt ist,
+        aber animiert wird, wird die Farbe der Animation auf den Hexa Wert des Ladebalkens
+        abzüglich lower gesetzt. (Sozusagen automatische Anpassung)
+        Werte von 300-0 sind möglich
+        -300: Starke Ähnlichkeit zur Fabe des Ladebalkens
+        In der Mitte zwischen 300 und 0:
+        starker Kontrast zur Farbe des Ladebalkens
+animation_width: Die Breite der Animation als int
