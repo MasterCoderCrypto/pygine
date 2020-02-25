@@ -1,4 +1,4 @@
-import tkinter as tk
+import tkinter as tkinter
 
 
 def init(widht, height, div):
@@ -7,9 +7,10 @@ def init(widht, height, div):
     globals()["div"] = div
 
 
-class Intro(tk.Frame):
+class Intro(tkinter.Frame):
 
     def __init__(self, master, path_to_background, path_to_character):
+        super().__init__(master)
         self.master = master
         self.path_to_background = path_to_background
         self.path_to_character = path_to_character
